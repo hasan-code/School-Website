@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Login | Manas Academy</title>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <div class="login-container">
+        <div class="logo-disclaimer-container">
+            <div class="logo">
+                <img src="./assets/icon/manas_logo.png" alt="Manas Academy lodo">
+            </div>
+
+            <div class="disclaimer">
+                <p>*Newly admitted students will be able to login once their registrations are approved by the competent
+                    authority.*</p>
+            </div>
+        </div>
+
+
+        <div class="login-form">
+
+            <div class="form-name">
+                <p>"Parent Portal"</p>
+                <p>ThreeDot School</p>
+            </div>
+
+            <form action="/" method="post">
+                <label for="regNumber">Registration number:</label>
+                <div class="input-field">
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                    <input type="text" placeholder="e.g.: 23UP0001" name="regNum" required>
+                </div>
+
+                <br>
+
+                <label for="password">Password:</label>
+                <div class="input-field">
+                    <span class="material-symbols-outlined">
+                        lock
+                    </span>
+                    <input type="password" placeholder="Enter your password:" name="password" required>
+                </div>
+
+                <br>
+
+                <label>
+                    <input type="checkbox" name="remember" id="remember" name="remember"> Remember
+                    me
+                </label>
+
+                <br>
+
+                <button type="submit">Login</button>
+
+                <br>
+                <br>
+
+                <a href="/">Forgot password?</a>
+                <p>New user? <a href="signup.html">Sign up.</a></p>
+            </form>
+        </div>
+
+        <div class="error-container">
+            <p>If you're unable to login or having any problem, please feel free to reach out to the authorities concerned.</p>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="copyright-developer">
+            <p class="copyright">All rights reserved.<br>&copy; 2023 Manas Academy.</p>
+            <p class="developer">Made with &#10084; in India by <a href="https://threedot.in/" target="_blank"
+                    class="developer-site-link">ThreeDot.</a></p>
+        </div>
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
